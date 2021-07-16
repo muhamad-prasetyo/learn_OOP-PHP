@@ -59,15 +59,15 @@
     class KapalLaut extends Kendaraan {
         private $cargoAwak = 1000;
 
-    public function setCargoAwak($paramCargoAwak)
-    {
-        $this->cargoAwak = $paramCargoAwak;
-    }
+        public function setCargoAwak($paramCargoAwak)
+        {
+            $this->cargoAwak = $paramCargoAwak;
+        }
 
-    public function getCargoAwak()
-    {
-        return $this->cargoAwak;
-    }
+        public function getCargoAwak()
+        {
+            return $this->cargoAwak;
+        }
 
     }
 
